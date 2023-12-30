@@ -1,0 +1,24 @@
+*{
+    font-family: "Roboto", "Times New Roman", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .two, .three, .four, .five, .six{
+    display:flex;
+}
+
+.three{
+    flex-direction: column;
+}
