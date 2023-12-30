@@ -8,6 +8,12 @@
 
 ol, ul{
     list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 body{
@@ -17,8 +23,46 @@ body{
 
 .one, .two, .three, .four, .five, .six{
     display:flex;
+    padding: 0 10%;
 }
 
 .three{
     flex-direction: column;
+}
+
+
+.one, .two, .six{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.one{
+    justify-content: space-between;
+    align-items: center;
+    height: 6%;
+}
+
+.six{
+    justify-content: center;
+    margin-top: auto;
+    align-items: flex-end;
+    height: 6%;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.links{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    width: 30%;
+    align-items: center;
+}
+
+.two{
+
 }
