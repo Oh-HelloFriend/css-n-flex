@@ -19,10 +19,21 @@ a{
 body{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+}
+
+button{
+    background-color: #3883F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 9px;
+    width: 150px;
 }
 
 .one, .two, .three, .four, .five, .six{
     display:flex;
+    flex: 1;
     padding: 0 10%;
 }
 
@@ -30,16 +41,31 @@ body{
     flex-direction: column;
 }
 
-
 .one, .two, .six{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.three, .five{
+    background-color: white;
 }
 
 .one{
     justify-content: space-between;
     align-items: center;
     height: 6%;
+    flex: 0;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    padding: 5%;
+}
+
+.four{
+    background-color: #E5E7EB;
 }
 
 .six{
@@ -47,6 +73,8 @@ body{
     margin-top: auto;
     align-items: flex-end;
     height: 6%;
+    padding: 2%, 0, 0, 0;
+    flex: 0;
 }
 
 .logo{
@@ -63,6 +91,37 @@ body{
     align-items: center;
 }
 
-.two{
+.twoleft{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-evenly;
+}
 
+.huge{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.img{
+    width: 30%;
+    height: auto;
+}
+
+.bluebox{
+    background-color: #3883F6;
+}
+
+.big{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.em{
+    font: light italic;
+}
+
+.strong{
+    font-weight: bolder;
 }
