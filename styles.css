@@ -29,6 +29,7 @@ button{
     padding: 3px 9px;
     width: 150px;
     border-color: white;
+    border-radius: 25px;
 }
 
 .one, .two, .three, .four, .five, .six{
@@ -154,6 +155,7 @@ figure{
     height: 200px;
     border: solid #3883F6 2px;
     flex: 0 0 auto;
+    border-radius: 25px;
 }
 
 figcaption.em{
@@ -171,6 +173,7 @@ figcaption.em{
     gap: 5%;
     flex: 1;
     padding: 5%;
+    border-radius: 25px;
 }
 
 .bb1{
