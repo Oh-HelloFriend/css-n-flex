@@ -34,12 +34,9 @@ button{
 .one, .two, .three, .four, .five, .six{
     display:flex;
     flex: 1;
-    padding: 0 10%;
+    padding: 0 6%;
 }
 
-.three{
-    flex-direction: column;
-}
 
 .one, .two, .six{
     background-color: #1F2937;
@@ -51,7 +48,7 @@ button{
 }
 
 .three, .four{
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .one{
@@ -64,7 +61,13 @@ button{
 .two{
     justify-content: center;
     flex: 1 1 0;
+    gap: 5%;
     padding: 5%;
+}
+
+.three{
+    flex-direction: column;
+    justify-content: center;
 }
 
 .four{
@@ -90,7 +93,7 @@ button{
 
 .links{
     font-size: 16px;
-&    display: flex;
+    display: flex;
     justify-content: space-between;
     gap: 4%;
     width: 30%;
@@ -106,13 +109,50 @@ button{
 
 .huge{
     font-size: 48px;
-    font-weight: bolder;
     color: #F9FAF8;
 }
 
+.bolder{
+    font-weight: bolder;
+}
+
 .img{
-    width: 30%;
+    width: 35%;
     height: auto;
+}
+
+.threetitle{
+    padding: 2%;
+    text-align: center;
+}
+
+.squareimgs{
+    margin-top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.onesquare{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    gap: 5px;
+}
+
+figure{
+    width: 200px;
+    height: 200px;
+    border: solid #3883F6 2px;
+    flex: 0 0 auto;
+}
+
+figcaption.em{
+    width: 200px;
+    font: light italic;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .bluebox{
