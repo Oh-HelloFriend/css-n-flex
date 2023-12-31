@@ -50,6 +50,10 @@ button{
     background-color: white;
 }
 
+.three, .four{
+    padding: 0 20%;
+}
+
 .one{
     justify-content: space-between;
     align-items: center;
@@ -58,7 +62,6 @@ button{
 }
 
 .two{
-    display: flex;
     justify-content: center;
     flex: 1 1 0;
     padding: 5%;
@@ -66,6 +69,9 @@ button{
 
 .four{
     background-color: #E5E7EB;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    flex: 1;
 }
 
 .six{
@@ -84,7 +90,7 @@ button{
 
 .links{
     font-size: 16px;
-    display: flex;
+&    display: flex;
     justify-content: space-between;
     gap: 4%;
     width: 30%;
@@ -124,4 +130,14 @@ button{
 
 .strong{
     font-weight: bolder;
+}
+
+.big.em{
+    display: flex;
+    justify-content: space-between;
+}
+
+.big.strong{
+    display: flex;
+    justify-content: end;
 }
